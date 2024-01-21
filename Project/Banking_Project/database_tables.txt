@@ -1,0 +1,21 @@
+
+#with sqlite
+ 
+>accounts table:
+------------------
+1. acn_no int primary key autoincrement
+2. acn_name text
+3. acn_pass text
+4. acn_email text
+5. acn_mob text
+6. acn_bal float
+7. acn_type text
+8. acn_opendate text
+
+>txn table:
+-----------
+1. txn_acn_no int 
+2. txn_amt float
+3. txn_update_bal float
+4. txn_date text
+5. txn_type text
